@@ -1,0 +1,26 @@
+body{
+  background: cream;
+  width: 700px;
+  padding: 25px 0;
+}
+
+h1 {
+  background: lightblue;
+  color: teal;
+  text-align: left;
+}
+
+h2 {
+  background: lightpink;
+  color: darkpurple;
+  text-align: left;
+}
+
+@media only screen and (max-width: 600px) {
+  body {
+    background: black;
+  }
+  h1 img {
+    width 100%;
+  }
+}
